@@ -1,0 +1,16 @@
+Auto Usate
+
+id - SMALL - PRIMARY KEY(INDEX - AUTO_INCREMENT - UNIQUE) - NOTNULL
+targa - VARCHAR(15) - INDEX - UNIQUE
+modello - VARCHAR(30) - NOTNULL
+colore - VARCHAR(20) 
+descrizione - TEXT 
+km_percorsi - MEDIUMINT - NOTNULL
+data_immatricolazione - DATE - NOTNULL
+prezzo_vendita - MEDIUMINT - NOTNULL
+alimentazione_auto - VARCHAR(20) - NOTNULL
+cambio - VARCHAR(15) - NOTNULL
+classe_auto - VARCHAR(10) - DEFAULT
+cilindrata - FLOAT(6,2) - NOTNULL
+immagine_auto - VARCHAR(100) - DEFAULT
+proprietari_precedenti - VARCHAR(30) 
